@@ -1,0 +1,116 @@
+/* src/index.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #eef2f7;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #222;
+  margin: 30px 0 20px;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  max-width: 650px;
+  margin: 0 auto 40px;
+}
+
+li {
+  background-color: #fff;
+  margin-bottom: 15px;
+  padding: 18px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.1rem;
+}
+
+button {
+  margin-left: 12px;
+  padding: 8px 14px;
+  border: none;
+  background-color: #ff5c5c;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 5px rgba(255, 92, 92, 0.4);
+}
+
+button:hover {
+  background-color: #e04848;
+  box-shadow: 0 4px 12px rgba(224, 72, 72, 0.6);
+}
+
+a {
+  text-decoration: none;
+  color: #2f80ed;
+  font-weight: 600;
+  margin-left: 12px;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #1366d6;
+  text-decoration: underline;
+}
+
+form {
+  max-width: 450px;
+  margin: 30px auto 50px;
+  background-color: #ffffff;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+form div {
+  margin-bottom: 18px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1.8px solid #ccd0d5;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  outline: none;
+  border-color: #2f80ed;
+  box-shadow: 0 0 8px rgba(47, 128, 237, 0.3);
+}
+
+button[type="submit"] {
+  background-color: #2f80ed;
+  color: white;
+  width: 100%;
+  padding: 14px 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(47, 128, 237, 0.5);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #1366d6;
+  box-shadow: 0 6px 18px rgba(19, 102, 214, 0.7);
+}
